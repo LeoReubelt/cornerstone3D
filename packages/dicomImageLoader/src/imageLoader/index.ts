@@ -11,6 +11,7 @@ import { default as wadors } from './wadors/index';
 import { default as init } from '../init';
 import { default as convertColorSpace } from './convertColorSpace';
 import { default as createImage } from './createImage';
+import { default as decodeImageFrame } from './decodeImageFrame';
 import { default as decodeJPEGBaseline8BitColor } from './decodeJPEGBaseline8BitColor';
 import { default as getImageFrame } from './getImageFrame';
 import { default as getMinMax } from '../shared/getMinMax';
@@ -30,6 +31,7 @@ const cornerstoneDICOMImageLoader = {
   init,
   convertColorSpace,
   createImage,
+  decodeImageFrame,
   decodeJPEGBaseline8BitColor,
   getImageFrame,
   getPixelData,
@@ -50,6 +52,7 @@ export {
   init,
   convertColorSpace,
   createImage,
+  decodeImageFrame,
   decodeJPEGBaseline8BitColor,
   getImageFrame,
   getPixelData,
